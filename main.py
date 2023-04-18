@@ -4,7 +4,7 @@ import sys
 
 def config():
     print('Давайте подключимся к PostgreSQL')
-    user = str(input("Введите имя\n"))
+    user = str(input("Введите имя\n"))  
     password = str(input("Пароль\n"))
     host = str(input("Хост\n"))
     port = str(input("Порт\n"))
@@ -12,7 +12,7 @@ def config():
     machina(user, password, host, port, database)
 
 
-def machina(user="postgres", password="0000", host="127.0.0.1", port="5432", database="postgres"):
+def machina(user, password, host, port, database):
     try:
         # Устанавливаем соединение с базой данных
         connection = psycopg2.connect(
