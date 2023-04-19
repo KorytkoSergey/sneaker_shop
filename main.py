@@ -120,7 +120,7 @@ def create_table(connection):
         print("Таблица успешна создана")
 
 
-def machina(user="postgres", password="0000", host="127.0.0.1", port="5432", database="postgres"):
+def machina(user, password, host, port, database):
     try:
         # Устанавливаем соединение с базой данных
         connection = psycopg2.connect(
