@@ -7,10 +7,10 @@
 <h2>Установка</h2>
 
 Склонировать репозиторий 
-git clone <code>https://github.com/KorytkoSergey/sneaker_shop</code>
+<code>git clone https://github.com/KorytkoSergey/sneaker_shop</code>
 
-Установить Python можно тут: https://www.python.org/downloads/
-Выбрать IDE: https://habr.com/ru/companies/skillfactory/articles/521838/
+<p>Установить Python можно тут: https://www.python.org/downloads/</p>
+<p>Выбрать IDE: https://habr.com/ru/companies/skillfactory/articles/521838/</p>
 В терминале вводим команду 
 
 <code>pip install psycopg2-binary</code>
